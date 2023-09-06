@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.infos {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+    gap: 30px;
+    background-color: transparent;
+}
+
+p {
+    text-align: center;
+}
+
+.assinatura {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #b2987d;
+}
+
+/* .modoLightTema {
+    background-color: #fff;
+}
+
+.modoDarkTema {
+    background-color: #000;
+} */

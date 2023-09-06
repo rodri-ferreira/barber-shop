@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.modoLightTema {
+    background-color: #fff;
+}
+
+.modoDarkTema {
+    background-color: #000;
+}
+
+.logo {
+    height: 120px;
+}
+
+.btnMudarTema {
+    border: 2px solid #b2987d;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.imgDark {
+    width: 25px;
+}
+

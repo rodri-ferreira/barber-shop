@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.corpo {
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    height: 120px;
+}
+
+.btnMudarTema {
+    border: 2px solid #b2987d;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.imgDark {
+    width: 25px;
+}
+
+
+.bannerImg {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+
+
+.infos {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+    gap: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+.assinatura {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #b2987d;
+}
+
+
+
+.modoLightTema {
+    background-color: #fff ;
+    color: #000;
+}
+
+.modoDarkTema {
+    background-color: #000 ;
+    color: #fff;
+}
+
+.modoDarkTemaTexto {
+    color: #fff;
+}
+
+.modoLightTemaTexto {
+    color: #000;
+}
